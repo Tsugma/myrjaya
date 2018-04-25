@@ -1,0 +1,277 @@
+.header-top {
+	padding: 2px 0;
+    background-color: #000;
+    color: #fff;
+}
+.header-middle {
+    background: #ffffff;
+    z-index: 999;
+    position: relative;
+    border-bottom: 5px solid #d11010;
+}
+.numberphone {
+	text-align:right;
+	font-weight: 700;
+    font-size: 18px;
+}
+.numberphone a {
+	color:#FFFFFF;
+	}
+.navbar-collapse.collapse {
+    padding-top: 10px;
+}
+#navigation-menu {
+    font-weight: 700;
+    padding-top: 5px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    margin-left: 40px;
+}
+.nav>li:last-child>a {
+padding-right:0px;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #ff0000;
+}
+.qtranxs_widget ul {
+    text-align: center;
+    letter-spacing: 15px;
+}
+#copyright {
+    font-size: 13px;
+}
+.headerred {
+    font-family: 'Titillium Web';
+    font-size: 45px;
+    text-align: center;
+    margin: 5px;
+	padding-bottom: 15px;
+    padding-top: 15px;
+}
+.redfont {
+	color: #6c4198;
+}
+.redbutton {
+    background-color: #6c4198;
+    padding: 5px 24px;
+    font-weight: 700;
+	color:#FFFFFF;
+}
+a:hover{
+    color: #DADADA;
+    text-decoration: none;
+    background-color: black;
+}
+.info {
+	box-shadow: 0 0 22px rgba(0, 0, 0, 1);
+    position: relative;
+    z-index: 999;
+    padding: 10px 0 44px 0;
+	border-top: 5px solid #d11010;
+	background-color: #f9f9f9;
+}
+.whyus {
+text-align: center;
+}
+
+#colophon {
+    background: #6c4198;
+    color: initial;
+}
+#copyright {
+    font-size: 13px;
+    color: #fff;
+}
+.interest {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.loan {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.blacklist {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.guarantor {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.fast {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.private {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.loantype {
+    background-color: #f9f9f9;
+    padding: 15px;
+	border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5
+}
+.su-tabs {
+    background: transparent !important;
+}
+.su-tabs-pane {
+    background: transparent !important;
+	font-size: 15px !important;
+}
+.su-tabs-nav span {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    color: #fff !important;
+    background-color: #6c4198;
+}
+.su-tabs-nav span:hover {
+    background: #000000 !important;
+}
+.su-tabs-current {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.personal::before{
+	  font-family: 'FontAwesome';
+	  content: "\f007";
+	  padding-right: 5px;
+}
+.business::before{
+	  font-family: 'FontAwesome';
+	  content: "\f0b1";
+	  padding-right: 5px;
+}
+th {
+    text-align: center;
+    background-color: #6c4198;
+    color: #fff;
+}
+td {
+    font-weight: 700;
+    background: #f9f9f9;
+}
+.redcolumn {
+	max-width: 85%;
+    margin: 0 auto;
+}
+.enquire {
+    position: relative;
+    z-index: 999;
+    padding: 40px 0 17px 0;
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+}
+.headerenquire {
+    font-family: 'Titillium Web';
+    font-size: 45px;
+	color: #FFFFFF;
+    text-align: center;
+    margin-top: -20px;
+}
+.wpcf7-form {
+	color:#FFFFFF;
+	    text-align: center;
+}
+	#footer .footer-inner {
+    display: none;
+}
+.footercontact {
+	    text-align: center;
+		color:#FFFFFF
+}
+.contact {
+	    font-size: 25px;
+}
+.wpcf7-submit {
+    background-color: #6c4198;
+    padding: 5px 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+	border-radius: 0px;
+	border: 0px;
+}
+.wpcf7-submit:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+.qtranxs_widget ul {
+    margin: 0;
+    padding: 0;
+	text-align: right;
+}
+
+@media (max-width: 991px){
+	.redcolumn {
+		overflow:auto;
+}
+.su-tabs-nav span {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    color: #fff !important;
+    background-color: #c8181e;
+}
+.su-tabs-nav, .su-tabs-nav span, .su-tabs-panes, .su-tabs-pane {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    text-align: center;
+}
+.photo {
+	    box-sizing: border-box;
+    text-align: center;
+	padding-top:20px
+}
+.info {
+	text-align: center;
+}
+.enquirephoto {
+	    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.numberphone {
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+	padding-left: 10px;
+}
+.qtranxs_widget ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+	padding-left: 10px;
+}
+	}
+@media (max-width: 768px){
+
+	}
+@media (max-width: 661px){
+	}
+@media (max-width: 480px){
+	.headerred {
+    font-size: 35px;
+}
+.headerenquire {
+   font-size: 35px;
+}
+	}
