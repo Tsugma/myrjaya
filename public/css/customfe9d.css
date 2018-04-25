@@ -65,7 +65,7 @@ padding-right:0px;
 a:hover{
     color: #DADADA;
     text-decoration: none;
-    background-color: black;
+    background-color: transparent;
 }
 .info {
 	box-shadow: 0 0 22px rgba(0, 0, 0, 1);
