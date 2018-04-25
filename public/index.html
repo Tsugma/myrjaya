@@ -481,7 +481,7 @@ Example: Amount of credit RM 5000 borrowed for 180 days. Interest: RM 448. Total
           borrow_amount: $('input[name="borrow_amount"]').val(),
           message: $('textarea[name="message"]').val(),
         }
-        jQuery.ajax({
+        $.ajax({
           type: 'POST',
           url: 'http://clikcouch.herokuapp.com/mailer_api/myrjaya',
           data: {
